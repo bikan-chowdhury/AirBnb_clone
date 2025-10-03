@@ -1,0 +1,24 @@
+<% layout("layouts/boilerplate") %>
+<form class="form needs-validation" action="/login" method="POST" novalidate>
+  <h2>Login on AirBnb</h2>
+  <label for="username">Username</label>
+  <input
+    type="text"
+    id="username"
+    name="username"
+    required
+    class="form-control"
+  />
+
+  <label for="password">Password</label>
+  <input
+    type="password"
+    id="password"
+    name="password"
+    required
+    class="form-control"
+  />
+
+  <br />
+  <button type="submit" class="btn btn-success">Login</button>
+</form>

@@ -1,0 +1,49 @@
+.form {
+  background: #fff;
+  padding: 20px;
+  max-width: 500px;
+  margin: auto;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.form label {
+  display: block;
+  margin-top: 15px;
+}
+.form input[type="text"],
+input[type="number"],
+textarea,
+select {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+.form button,
+.btn-edit {
+  margin-top: 20px;
+  padding: 10px 15px;
+  background-color: #dc3545 !important;
+  color: white;
+  border: none !important;
+  border-radius: 4px;
+  cursor: pointer;
+  margin: 0% !important;
+}
+.form button:hover,
+.btn-edit:hover {
+  background-color: #c82333 !important;
+}
+.btn-delete {
+  background-color: black !important;
+  border: none !important;
+}
+.btn-delete:hover {
+  background-color: rgb(16, 16, 16) !important;
+}
+.btns1 {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}

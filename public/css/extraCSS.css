@@ -1,0 +1,36 @@
+    .footer-container {
+      background-color: #222;
+      color: #fff;
+      padding: 40px 20px;
+      text-align: center;
+    }
+
+    .footer-social {
+      margin: 20px 0;
+    }
+
+    .footer-social a {
+      display: inline-block;
+      margin: 0 10px;
+      color: #fff;
+      font-size: 24px;
+      transition: color 0.3s;
+    }
+
+    .footer-social a:hover {
+      color: #1da1f2; /* Twitter blue */
+    }
+
+    .footer-bottom {
+      margin-top: 20px;
+      font-size: 14px;
+      color: #aaa;
+    }
+
+    /* Responsive */
+    @media (max-width: 600px) {
+      .footer-social a {
+        font-size: 20px;
+        margin: 0 8px;
+      }
+    }

@@ -1,0 +1,130 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.container {
+  margin: 4vh 0;
+  flex: 1;
+}
+.navbar {
+  height: 5rem;
+  background-color: white;
+}
+.navbar-nav {
+  background-color: white;
+}
+.fa-compass {
+  color: #fe424d;
+  font-size: 2rem;
+}
+
+.nav-link {
+  color: #222222 !important;
+}
+
+.card {
+  border: none !important;
+  margin-bottom: 2rem;
+  min-width: 90vw;
+  max-width: 98vw;
+}
+.price {
+  color: rgb(69, 69, 229);
+  font-weight: 600;
+  font-size: 1.2rem;
+}
+.card-img-top {
+  border-radius: 1rem !important;
+  width: 100% !important;
+ 
+}
+.card-body {
+  padding: 0 !important;
+}
+.cards {
+  gap: 1erm !important;
+}
+.card-title {
+  font-size: 1.5rem;
+}
+.card-img-overlay {
+  background-color: rgb(255, 255, 255);
+  opacity: 0;
+}
+.card-img-overlay:hover {
+  opacity: 0.2;
+}
+.listing-link {
+  text-decoration: none;
+}
+.price-sh {
+  color: rgb(9, 9, 171);
+  font-weight: 700;
+  font-size: 2rem;
+  animation: cubic-bezier(0.785, 0.135, 0.15, 0.86);
+}
+input[type="range"] {
+  cursor: pointer;
+}
+
+.show-reviews {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-between;
+}
+/* Card styling */
+.review-card {
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  padding: 20px 24px;
+  min-width: 20%;
+  max-width: 60%;
+  height: auto;
+  font-family: Arial, sans-serif;
+  margin: 0.8rem;
+}
+
+/* Header section with username and rating */
+.review-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 12px;
+}
+
+.review-username {
+  font-size: 1.1rem;
+  color: #333333;
+  margin: 0;
+}
+
+.review-rating {
+  font-size: 1.1rem;
+  color: #f5a623;
+}
+
+/* Comment section */
+.review-comment {
+  font-size: 0.95rem;
+  color: #555555;
+  line-height: 1.4;
+}
+
+.dlt-icon {
+  border: none;
+  background-color: transparent;
+  color: gray;
+}
+.dlt-icon:hover {
+  color: rgb(240, 17, 17);
+}

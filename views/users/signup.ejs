@@ -1,0 +1,27 @@
+<% layout("layouts/boilerplate") %>
+<form class="form needs-validation" action="/signup" method="POST" novalidate>
+  <h2>SignUp on AirBnb</h2>
+  <label for="username">Username</label>
+  <input
+    type="text"
+    id="username"
+    name="username"
+    required
+    class="form-control"
+  />
+
+  <label for="email">Email</label>
+  <input type="email" id="email" name="email" class="form-control" required />
+
+  <label for="password">Password</label>
+  <input
+    type="password"
+    id="password"
+    name="password"
+    required
+    class="form-control"
+  />
+
+  <br />
+  <button type="submit" class="btn btn-success">SignUp</button>
+</form>
