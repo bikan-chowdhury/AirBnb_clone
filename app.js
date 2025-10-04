@@ -33,7 +33,11 @@ main()
     console.log(err);
   });
 async function main() {
-  await mongoose.connect(dbUrl);
+  await mongoose.connect(dbUrl, {
+  tls: true,
+  tlsAllowInvalidCertificates: true,
+  tlsInsecure: true
+});
 }
 
 const store = MongoStore.create({
